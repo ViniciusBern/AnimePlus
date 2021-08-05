@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    background: #040714;
+
+}
+
+header h2 img{
+    height: 50px;
+    margin-right: 45px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+header .container{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: 10px;
+}
+
+header nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 45px;
+    margin-top: 15px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+header nav a:hover{
+    color: black;
+    background: rgba(255,255,255,.90);
+    border-radius: 5%;
+    transition: .3s ease all;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.titulo{
+    font-size: 40px;
+    margin-top: 15%;
+    margin-bottom: 30px;
+}
+
+.principal{
+    color: rgba(255,255,255,.90);
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%),url('capaa.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.principal .container{
+    width: 60%;
+}
+
+.botoes{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+.botoes:hover{
+    color: black;
+    background: rgba(255,255,255,.90);
+    border-radius: 3%;
+    transition: .3s ease all;
+}
+
+
+main img{
+    height: auto;
+    width: 50%;
+ 
+}
+
+.item{
+    height: 350px;
+    width: 100%;
+    display: block;
+}
